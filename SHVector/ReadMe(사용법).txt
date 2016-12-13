@@ -5,7 +5,8 @@
 // - Visual Studio에서 컴파일 후 디버깅 하지 않고 시작(Ctrl+F5)
 //
 // ■ Stack과 Heap을 직접 구현
-//============= Main Function
+// ■ element 4개 이하면 Stack을 사용하고 그 이상하면 Heap을 사용하는 Vector 구현
+// ■ 아래와 같은 Case로 테스트 진행 하였습니다.
 //============= 00. TEST Case : Stack 방식으로 element 4개 push
 //============= 01. TEST Case : Heap 방식으로 element 5개 push
 //============= 02. TEST Case : Stakc+Heap 방식으로 element 1200개 push
